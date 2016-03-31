@@ -7,7 +7,7 @@ Uses [Guard](https://github.com/guard/guard) to watch for changes and update Sho
 * The config settings are stored in the project directory (rather than in `~/.guard_shopify`, as with guatd-shopify)
 * If you choose to use the `theme watch` command provided by shopify_theme instead of Guard, then everything will still work properly – you don't need to maintain two sets of config files.
 
-## Installation
+## Installation   
 Make sure you have installed [Guard](https://github.com/guard/guard).
 
 Add this line to your application's Gemfile:
@@ -102,4 +102,3 @@ end
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dannysmith/guard-shopifytheme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
